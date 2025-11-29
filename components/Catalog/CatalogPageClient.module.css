@@ -1,0 +1,41 @@
+.catalog {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 84px 120px 124px 120px;
+}
+
+.error {
+  color: #dc2626;
+  margin-bottom: 16px;
+}
+
+.loadMoreWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.loadMoreButton {
+  border: 1px solid #3470ff;
+  border-radius: 12px;
+  padding: 12px 38px;
+  width: 160px;
+  height: 44px;
+  background: transparent;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+  transition: 0.2s;
+}
+
+.loadMoreButton:hover {
+  border: 1px solid #0b44cd;
+}
+
+.endText {
+  text-align: center;
+  margin-top: 24px;
+  opacity: 0.6;
+}

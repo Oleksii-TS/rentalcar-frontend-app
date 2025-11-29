@@ -1,0 +1,36 @@
+.header {
+  background: #f2f4f7;
+  border-bottom: 1px solid #f2f4f7;
+  height: 68px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 120px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.navLink {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #101828;
+}
+
+.navLink:hover {
+  color: #0b44cd;
+}
+
+.active {
+  color: #0b44cd;
+}

@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚗 RentalCar --- Car Rental Application
 
-## Getting Started
+RentalCar is a modern web application for browsing and booking
+rental cars. The project is built with Next.js, React, Zustand,
+TypeScript, custom UI components, and integration with the \*\*GoIT Car
+Rental API.
 
-First, run the development server:
+Users can explore a catalog of vehicles, apply filters, view detailed
+information, add cars to favorites, and submit booking requests through
+an interactive form.
+
+✨ Features
+
+🔎 Car Catalog
+
+- Fetching cars from a remote API
+- Pagination with Load More
+- Persisted state using Zustand (filters, pages, favorites)
+- Loading and error handling
+
+🧭 Advanced Filters
+
+- Filter by brand
+- Filter by price
+- Filter by mileage (from/to)
+- Custom dropdowns
+- Placeholder color customization
+
+📄 Car Details Page
+
+- High‑resolution car photo
+- Full specifications
+- Favorite toggle button with animation
+
+📅 Booking Form
+
+- Validation
+- Date picker calendar
+- Toast notifications for success and errors
+- Form data persistence after reload
+- Optional auto‑reset on success
+
+❤️ Favorites
+
+- Add/remove favorites
+- Local storage persistence via Zustand
+- Dynamic heart icon state
+
+🛠️ Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Zustand (persist)
+- CSS Modules
+- React Hot Toast
+- SVG sprite
+- REST API
+
+📦 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Oleksii-TS/rentalcar-app.git
+cd rentalcar-app
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Create `.env.local`:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    NEXT_PUBLIC_API_URL=
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Run:
 
-## Learn More
+    npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+Build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    npm run build
+    npm start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📚 Usage
 
-## Deploy on Vercel
+- Open http://localhost:3000
+- Apply filters
+- Browse cars
+- View car details
+- Submit booking
+- Add to favorites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🧑‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Oleksii --- Full‑Stack Developer (in training)
