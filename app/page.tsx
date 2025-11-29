@@ -14,7 +14,7 @@ export async function generateMetadata() {
       type: "website",
       images: [
         {
-          url: "/public/images/Picture.png",
+          url: "/images/Picture.png",
           width: 1200,
           height: 630,
         },
