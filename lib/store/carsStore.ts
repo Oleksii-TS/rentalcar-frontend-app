@@ -48,6 +48,7 @@ export const useCarsStore = create<CarsState>()(
           totalCars: 0,
           totalPages: 1,
           error: null,
+          filters: {},
         }),
 
       setFilters: async (filters: CarFilters) => {
