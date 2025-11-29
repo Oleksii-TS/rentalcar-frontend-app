@@ -60,7 +60,7 @@ an interactive form.
 📦 Installation
 
 ```bash
-git clone https://github.com/Oleksii-TS/rentalcar-app.git
+git clone https://github.com/Oleksii-TS/rentalcar-frontend-app.git
 cd rentalcar-app
 npm install
 ```
